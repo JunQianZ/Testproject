@@ -1,3 +1,4 @@
+/*add some test code */
 #include <stdio.h>
 
 int my_strlen(char *s)
