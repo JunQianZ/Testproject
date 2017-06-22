@@ -1,0 +1,14 @@
+[tom@CentOS src]$ pwd
+/home/tom/top_repo/project/src
+
+[tom@CentOS src]$ ls -1
+Makefile
+string_operations.c
+
+[tom@CentOS src]$ rm string_operations.c
+
+[tom@CentOS src]$ ls -1
+Makefile
+
+[tom@CentOS src]$ git status -s
+D string_operations.c
